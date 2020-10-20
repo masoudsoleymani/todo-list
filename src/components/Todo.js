@@ -18,11 +18,11 @@ const Todo =({text, todo, todos, setTodos}) => {
         } ));
     };
     return (
-        <div className="todo">
+        <section className="todo">
             <button 
             onClick={completeHandler} 
             className="complete-btn">
-                <i className = "fas fa-check"></i>
+                <i className = {` ${todo.completed ? "fas fa-check" : ""}`}></i>
             </button>
             <li className={`todo-item ${todo.completed ? "completed" : ""}`}>{text}</li>
             <button 
@@ -30,7 +30,7 @@ const Todo =({text, todo, todos, setTodos}) => {
             className="trash-btn">
                 <i className = "fas fa-trash"></i>
             </button>
-        </div>
+        </section>
 
     )
 };

@@ -13,12 +13,13 @@ body {
 
 /* Header styles */
 .appheader {
-  border: 1px solid #ff6f47;
+  background: rgba(225, 225, 225, 0.466);
   width: 60%;
+  border-radius: 10px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 10px;
+  padding: 30px;
 }
 header {
   font-size: 1rem;
@@ -56,7 +57,7 @@ form input {
 form button {
   margin-right: 2%;
   color: #000000;
-  background: #49ffea;
+  background: #6ff7f3ee;
   cursor: pointer;
   padding-right: 30px;
   padding-left: 30px;
@@ -65,8 +66,7 @@ form button {
   border-bottom-right-radius: 10px;
 }
 form button:hover {
-  background: #1188ff;
-  color: rgb(0, 0, 0);
+  background: #1b74ef;
 }
 select {
   -webkit-appearance: none;
@@ -74,7 +74,7 @@ select {
   -ms-appearance: none;
   appearance: none;
   outline: 0;
-  background: #4a7aa9;
+  background: #6ff7f3ee;
   border: 0 !important;
   padding: 7px;
   padding-left: 20px;
@@ -86,15 +86,12 @@ select {
   border-radius: 10px;
 }
 select:hover {
-  background: #1188ff;
+  background: #1b74ef;
 }
 
 /* Todos list style */
 .todo-container {
   margin-top: 20px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .todo-list {
   min-width: 100%;
@@ -102,7 +99,6 @@ select:hover {
 }
 .todo {
   border-radius: 10px;
-  /* margin: 0.5rem; */
   margin-top: 1rem;
   background: white;
   font-size: 1rem;
@@ -113,18 +109,27 @@ select:hover {
   transition: all 1s ease;
 }
 
-.trash-btn,
-.complete-btn {
+.trash-btn {
   border-radius: 10px;
-  background: #cdcdcd;
-  color: white;
   border: none;
-  padding: 1rem;
+  padding: 10px;
   cursor: pointer;
   font-size: 1rem;
 }
 .complete-btn {
-  background: rgba(11, 212, 162, 0.518);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #6ff7f3ee;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+section button {
+  width: 40px;
+  min-height: 40px;
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -144,4 +149,14 @@ select:hover {
   width: 100%;
   color: white;
   text-align: center;
+}
+
+/* SMALL SCREEN ONLY */
+@media (max-width: 700px) {
+  header {
+    font-size: 0.8rem;
+  }
+  .appheader {
+    width: 80%;
+  }
 }
