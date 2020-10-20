@@ -1,5 +1,37 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+
+# Features:
+- Responsive layout;
+- Simple UI;
+- Active & completed tasks archive view;
+
+
+
+
+
+# Technologies:
+- HTML5
+- CSS3
+- javascript
+- ES6
+_ Font Awesome
+- ReactJS
+
+
+
+
+
+# Status:
+- done
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
