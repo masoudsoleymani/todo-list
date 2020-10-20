@@ -1,6 +1,7 @@
 {
   "name": "react-todo",
   "version": "0.1.0",
+  "homepage": "https://masoudsoleymani.github.io/todoList-react/",
   "private": true,
   "dependencies": {
     "@feuer/react-tabs": "^0.1.8",
