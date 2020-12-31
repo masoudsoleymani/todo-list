@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This progect is a simlpe todo list app built in ReactJS.(https://github.com/facebook/create-react-app).
 
 
 
@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - CSS3
 - javascript
 - ES6
-_ Font Awesome
+- Font Awesome
 - ReactJS
 
 
