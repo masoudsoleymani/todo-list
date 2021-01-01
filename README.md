@@ -1,11 +1,11 @@
 This project is a todo list maker that keeps the data in the localhost.
 
-# Features
+## Features
 - Responsive layout;
 - Simple UI;
 - Active & completed tasks archive view;
 
-# Technologies
+## Technologies
 - HTML5
 - CSS3
 - javascript
@@ -13,14 +13,14 @@ This project is a todo list maker that keeps the data in the localhost.
 - Font Awesome
 - ReactJS
 
-# Status
+## Status
 - done
 
 # Runs the app in the development mode 
 
-### `yarn install`
+ `yarn install`
 
-### `yarn start`
+ `yarn start`
 
 Open http://localhost:3000 to view it in the browser.
 
