@@ -3,11 +3,9 @@ import './App.css';
 import Form from './components/Form';
 import TodoList from './components/TodoList';
 
-//for display date and time
+//Display date & time
 let today = new Date();
 let todaydate = today.toLocaleDateString("en-US", {weekday: "long", month: "short", day:"numeric"});
-
-
 
 function App() {
 
