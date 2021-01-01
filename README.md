@@ -1,5 +1,3 @@
-#todo-list
-
 This project is a todo list maker that keeps the data in the localhost.
 
 # Features
@@ -18,7 +16,7 @@ This project is a todo list maker that keeps the data in the localhost.
 # Status
 - done
 
-## Running it locally 
+# Running it locally 
 
 ### `yarn install`
 
@@ -26,4 +24,4 @@ This project is a todo list maker that keeps the data in the localhost.
 
 # Screen
 
-![](images/screen-shot.jpg)
+![](images/screenshot.jpg)
