@@ -24,4 +24,4 @@ This project is a todo list maker that keeps the data in the localhost.
 
 # Screen
 
-![](images/screenshot.jpg)
+![](src/img/screenshot.jpg)
