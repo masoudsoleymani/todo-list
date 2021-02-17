@@ -1,4 +1,6 @@
-This project is a todo list maker that keeps the data in the localhost.
+This project is a todo list maker that keeps the data locally
+
+Page is published at [https://masoudsoleymani.github.io/todo-list](https://masoudsoleymani.github.io/todo-list)
 
 ## Features
 - Responsive layout;
