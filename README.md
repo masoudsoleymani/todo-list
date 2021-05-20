@@ -16,7 +16,7 @@ fulfilled
   - `yarn` for dependencies installation
 
   ### Running
-  - `yarn start` for webpack-dev-server
+  - `yarn start` 
   - `yarn build` for production
   - Open [http://localhost:3000](http://localhost:3000)
 
