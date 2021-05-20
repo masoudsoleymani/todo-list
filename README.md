@@ -1,10 +1,30 @@
-This project is a todo list maker that keeps the data locally
+# Todo-List
 
-Page is published at [https://masoudsoleymani.github.io/todo-list](https://masoudsoleymani.github.io/todo-list)
+Published at [https://masoudsoleymani.github.io/todo-list](https://masoudsoleymani.github.io/todo-list)
+
+## Status
+fulfilled
+
+## Development 
+
+  ### Prerequisites
+  - [Node.js](https://nodejs.org/en/)
+  - [yarn](https://classic.yarnpkg.com/en/docs/install/)
+  - [Docker](https://www.docker.com/)
+
+  ### Installation
+  - clone the repo
+  - `yarn` for dependencies installation
+
+  ### Running
+  - `yarn start` for webpack-dev-server
+  - `yarn build` for production
+  - Open [http://localhost:3000](http://localhost:3000)
+
+You can see any lint errors on the console
 
 ## Features
 - Responsive layout;
-- Simple UI;
 - Active & completed tasks archive view;
 
 ## Technologies
@@ -15,20 +35,10 @@ Page is published at [https://masoudsoleymani.github.io/todo-list](https://masou
 - Font Awesome
 - ReactJS
 
-## Status
-- done
-
-# Runs the app in the development mode 
-
- `yarn install`
-
- `yarn start`
-
-Open http://localhost:3000 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-# Screen
+## Screen
 
 ![](src/img/screenshot.jpg)
+
+## License
+
+This project is licensed under the terms of the MIT license. See [LICENSE](LICENSE) 
