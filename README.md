@@ -10,7 +10,6 @@ fulfilled
   ### Prerequisites
   - [Node.js](https://nodejs.org/en/)
   - [yarn](https://classic.yarnpkg.com/en/docs/install/)
-  - [Docker](https://www.docker.com/)
 
   ### Installation
   - clone the repo
